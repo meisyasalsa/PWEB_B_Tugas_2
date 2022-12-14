@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodhub</title>
+
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <div class="navbar-wrapper">
+          <a href="#">
+            <img src="./assets/images/logo.png" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li>
+              <a href="#menu" class="nav-link">Our Menu</a>
+            </li>
+            <li>
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+          </ul>
+
+          <div class="navbar-btn-group">
+            <button class="shopping-cart-btn">
+              <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+              <span class="count">3</span>
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="cart-box">
+        <ul class="cart-box-ul">
+          <h4 class="cart-h4">Your order.</h4>
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Kopi Susu Gula Aren</h5>
+              <p class="product-price">
+                8<span class="small">K</span>
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu6.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Chiken Salad</h5>
+              <p class="product-price">
+                46<span class="small">K</span>
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Burger Rendang</h5>
+              <p class="product-price">
+                39<span class="small">K</span>
+              </p>
+            </a>
+          </li>
+        </ul>
+
+        <div class="cart-btn-group">
+          <button class="btn btn-secondary">View order</button>
+          <button class="btn btn-primary">Checkout</button>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="home-left">
+          <p class="home-subtext">Hi, new friend!</p>
+
+          <h1 class="main-heading">We do not cook, we create your emotions!</h1>
+
+          <p class="home-text">
+            I will never forgive anyone for choosing to get a thing in any way
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary btn-icon">
+              <img src="./assets/images/menu.svg" alt="menu icon">
+              Our menu
+            </button>
+
+            <button class="btn btn-secondary btn-icon">
+              <img src="./assets/images/arrow.svg" alt="menu icon">
+              About us
+            </button>
+          </div>
+        </div>
+
+        <div class="home-right">
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
+          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-left">
+          <div class="img-box">
+            <img src="./assets/images/about-image.jpeg" alt="about image" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg">5</p>
+              <p class="text-md">Years <br> Experiense</p>
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+        </div>
+
+        <div class="about-right">
+          <h2 class="section-title">We are doing more than
+            you expect</h2>
+
+          <p class="section-text">
+            The great error of those who boast is that at times there is nothing at all, nor at some times of pain, 
+            because that resilience, which must never be assumed, prevents pain. At the pleasure of one who obtains 
+            the exercise of the duties of the times, which for the whole of the pains, must be assumed. 
+            Wisely loosed our blame from blinded blinded easy life is held great and not even the inventor and 
+            I will explain them to the best advantage! As it were, I hate pleasures.
+          </p>
+
+          <p class="section-text">
+            Adipisicion will be carried out. They never know the easy thing with lust, for those who are blinded 
+            by the pleasure of the pleasure of the truth of the mind seek the flexibility of convenience, 
+            but that of hardships.          
+          </p>
+
+          <img src="./assets/images/signature.png" alt="signature" class="signature" width="150">
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="service-card">
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">We are located in the city center</h3>
+
+          <p class="card-text">
+            Until now we already have 4 branches located in each provincial capital, namely Jakarta, Surabaya, Semarang and Bandung.          
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Fresh ingredients from organic farms</h3>
+
+          <p class="card-text">
+            The ingredients we use are also always from superior farmers in Indonesia, the quality is guaranteed.          
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Own fast delivery. 30 min Maximum</h3>
+
+          <p class="card-text">
+            We guarantee that within 30 minutes your order will arrive at its destination.          
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Professional, experienced chefs</h3>
+
+          <p class="card-text">
+            The chefs we employ also meet the qualification standards of well-known restaurants and have certificates.          
+          </p>
+        </div>
+
+        <div class="service-card">
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">The highest standards of service</h3>
+
+          <p class="card-text">
+            There is no doubt about our service, we always guarantee the quality of our staff and food.          
+          </p>
+        </div>
+
+      </section>
+
+      <section class="product" id="menu">
+        <h2 class="section-title">Most popular dishes</h2>
+
+        <p class="section-text">
+          The menus that we serve are not standard menus. Where we combine traditional food with food from various countries.
+        </p>
+
+        <div class="products-grid">
+          <a href="#">
+
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Kopi Susu Gula Aren</h3>
+
+                  <p class="product-price">
+                    8<span class="small">K</span>
+                  </p>
+                </div>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu2.png" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Fruit Salad</h3>
+
+                  <p class="product-price">
+                    42<span class="small">K</span>
+                  </p>
+                </div>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Sushi</h3>
+
+                  <p class="product-price">
+                    31<span class="small">K</span>
+                  </p>
+                </div>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge red">
+                  <ion-icon name="flame"></ion-icon>
+                  <p>Hot</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Burger Rendang</h3>
+
+                  <p class="product-price">
+                    39<span class="small">K</span>
+                  </p>
+                </div>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Pasta Carbonara</h3>
+
+                  <p class="product-price">
+                    27<span class="small">K</span>
+                  </p>
+                </div>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="product-card">
+              <div class="img-box">
+                <img src="./assets/images/menu6.png" alt="product image" class="product-img" width="200" loading="lazy">
+              
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+                <div class="wrapper">
+                  <h3 class="product-name">Chiken Salad</h3>
+
+                  <p class="product-price">
+                    46<span class="small">K</span>
+                  </p>
+                </div>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <button class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Full menu
+        </button>
+
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <h2 class="section-title">What our customers say?</h2>
+
+        <div class="testimonials-grid">
+          <div class="testimonials-card">
+            <h4 class="card-title">Very tasty</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+
+            <p class="testimonials-text">
+              A combination of traditional and western food, where there is a pie with rendang filling. 
+              This is the most delicious food I've ever tried, because of this menu we can eat rendang with 
+              a mix of other flavors not only in Nasi Padang.
+            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">Zaskia Marina</h5>
+            </div>
+          </div>
+
+          <div class="testimonials-card">
+            <h4 class="card-title">I have lunch here every day</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+              The presentation of the food really makes the heart happy, according to the service 
+              they offer it comes within 30 minutes, it really happened. And I really didn't expect 
+              my food to arrive so quickly. <br><br>
+            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">Richard Gunawan</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <a href="#">
+          <img src="./assets/images/logo-footer.png" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="social-link">
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </div>
+
+        <p class="copyright">&copy; Pemrograman Web 2022. Meisya Salsabila.</p>
+
+      </div>
+    </footer>
+  </div>
+
+  <script src="./assets/js/foodhub.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
